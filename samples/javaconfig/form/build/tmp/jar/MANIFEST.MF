@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: spring-security-samples-javaconfig-form
+Premain-Class: true
+Implementation-Version: 4.2.2.RELEASE
+Can-Redefine-Classes: true
+Agent-Class: true
+Can-Retransform-Classes: true
+Can-Set-Native-Method-Prefix: false
+Created-By: Spring Security Team
+

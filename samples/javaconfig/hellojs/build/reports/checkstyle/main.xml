@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="6.16.1">
+<file name="D:\spring-security-4.2.2.RELEASE\samples\javaconfig\hellojs\src\main\java\org\springframework\security\samples\config\MessageSecurityWebApplicationInitializer.java">
+</file>
+<file name="D:\spring-security-4.2.2.RELEASE\samples\javaconfig\hellojs\src\main\java\org\springframework\security\samples\config\SecurityConfig.java">
+</file>
+<file name="D:\spring-security-4.2.2.RELEASE\samples\javaconfig\hellojs\src\main\java\org\springframework\security\samples\mvc\MessageJsonController.java">
+</file>
+</checkstyle>

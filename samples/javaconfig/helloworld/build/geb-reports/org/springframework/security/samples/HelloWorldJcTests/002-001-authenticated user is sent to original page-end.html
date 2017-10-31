@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html lang="en">
+  <head>
+    <title>
+      Hello Security
+    </title>
+    <link href="/sample/resources/img/favicon.ico" type="image/x-icon" rel="icon"/>
+    <link rel="stylesheet" href="/sample/resources/css/bootstrap.css"/>
+    <link rel="stylesheet" href="/sample/resources/css/bootstrap-responsive.css"/>
+  </head>
+  <body>
+    <div class="container">
+      <h1>
+        This is secured!
+      </h1>
+      <p>
+        
+        Hello 
+        <b>
+          user
+        </b>
+      </p>
+      <form method="post" action="/sample/logout" class="form-inline">
+        <input value="Log out" type="submit"/>
+        <input value="c85d1e12-7632-4dbb-abff-ebc5539371c1" name="_csrf" type="hidden"/>
+      </form>
+    </div>
+  </body>
+</html>

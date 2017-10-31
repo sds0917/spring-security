@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class org.springframework.security.samples.config.SecurityConfigTests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class org.springframework.security.samples.config.SecurityConfigTests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/org.springframework.security.samples.config.html">org.springframework.security.samples.config</a> &gt; SecurityConfigTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">1</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.016s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">securityConfigurationLoads</td>
+<td>0.016s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>21:23:30.855 [Test worker] DEBUG o.s.t.c.j.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class org.springframework.security.samples.config.SecurityConfigTests]
+21:23:30.871 [Test worker] DEBUG o.s.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+21:23:30.871 [Test worker] DEBUG o.s.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+21:23:30.886 [Test worker] DEBUG o.s.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [org.springframework.security.samples.config.SecurityConfigTests] from class [org.springframework.test.context.support.DefaultTestContextBootstrapper]
+21:23:30.918 [Test worker] DEBUG o.s.t.c.s.AbstractDelegatingSmartContextLoader - Delegating to AnnotationConfigContextLoader to process context configuration [ContextConfigurationAttributes@7caf7cfe declaringClass = 'org.springframework.security.samples.config.SecurityConfigTests', classes = '{class org.springframework.security.samples.config.SecurityConfig}', locations = '{}', inheritLocations = true, initializers = '{}', inheritInitializers = true, name = [null], contextLoaderClass = 'org.springframework.test.context.ContextLoader'].
+21:23:30.933 [Test worker] DEBUG o.s.t.c.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [org.springframework.security.samples.config.SecurityConfigTests]
+21:23:30.933 [Test worker] DEBUG o.s.t.c.s.DefaultTestContextBootstrapper - @TestExecutionListeners is not present for class [org.springframework.security.samples.config.SecurityConfigTests]: using defaults.
+21:23:30.933 [Test worker] INFO  o.s.t.c.s.DefaultTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+21:23:30.965 [Test worker] INFO  o.s.t.c.s.DefaultTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@129a6122, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@109e0de4, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@4e0f75b, org.springframework.test.context.support.DirtiesContextTestExecutionListener@1f961cae, org.springframework.test.context.transaction.TransactionalTestExecutionListener@5ec4ed0f, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@3ed53a1e]
+21:23:30.965 [Test worker] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [org.springframework.security.samples.config.SecurityConfigTests]
+21:23:30.965 [Test worker] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [org.springframework.security.samples.config.SecurityConfigTests]
+21:23:30.965 [Test worker] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [org.springframework.security.samples.config.SecurityConfigTests]
+21:23:30.965 [Test worker] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [org.springframework.security.samples.config.SecurityConfigTests]
+21:23:30.980 [Test worker] DEBUG o.s.t.c.s.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@2f969c5d testClass = SecurityConfigTests, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@6ec1924b testClass = SecurityConfigTests, locations = '{}', classes = '{class org.springframework.security.samples.config.SecurityConfig}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]], class annotated with @DirtiesContext [false] with mode [null].
+21:23:30.980 [Test worker] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [org.springframework.security.samples.config.SecurityConfigTests]
+21:23:30.980 [Test worker] DEBUG o.s.t.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [org.springframework.security.samples.config.SecurityConfigTests]
+21:23:30.980 [Test worker] DEBUG o.s.t.c.s.DependencyInjectionTestExecutionListener - Performing dependency injection for test context [[DefaultTestContext@2f969c5d testClass = SecurityConfigTests, testInstance = org.springframework.security.samples.config.SecurityConfigTests@2d606789, testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@6ec1924b testClass = SecurityConfigTests, locations = '{}', classes = '{class org.springframework.security.samples.config.SecurityConfig}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]].
+21:23:30.980 [Test worker] DEBUG o.s.t.c.s.AbstractDelegatingSmartContextLoader - Delegating to AnnotationConfigContextLoader to load context from [MergedContextConfiguration@6ec1924b testClass = SecurityConfigTests, locations = '{}', classes = '{class org.springframework.security.samples.config.SecurityConfig}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]].
+21:23:30.980 [Test worker] DEBUG o.s.t.c.s.AbstractGenericContextLoader - Loading ApplicationContext for merged context configuration [[MergedContextConfiguration@6ec1924b testClass = SecurityConfigTests, locations = '{}', classes = '{class org.springframework.security.samples.config.SecurityConfig}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]].
+21:23:31.027 [Test worker] DEBUG o.s.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+21:23:31.027 [Test worker] DEBUG o.s.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+21:23:31.027 [Test worker] DEBUG o.s.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+21:23:31.043 [Test worker] DEBUG o.s.t.c.s.AnnotationConfigContextLoader - Registering annotated classes: {class org.springframework.security.samples.config.SecurityConfig}
+21:23:31.090 [Test worker] INFO  o.s.c.s.GenericApplicationContext - Refreshing org.springframework.context.support.GenericApplicationContext@544b2e14: startup date [Tue Oct 31 21:23:31 CST 2017]; root of context hierarchy
+21:23:31.090 [Test worker] DEBUG o.s.c.s.GenericApplicationContext - Bean factory for org.springframework.context.support.GenericApplicationContext@544b2e14: org.springframework.beans.factory.support.DefaultListableBeanFactory@3be28ab8: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,org.springframework.context.event.internalEventListenerProcessor,org.springframework.context.event.internalEventListenerFactory,securityConfig]; root of factory hierarchy
+21:23:31.105 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+21:23:31.105 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+21:23:31.136 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' to allow for resolving potential circular references
+21:23:31.136 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+21:23:31.230 [Test worker] DEBUG o.s.c.a.ConfigurationClassBeanDefinitionReader - Registered bean definition for imported class 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration'
+21:23:31.230 [Test worker] DEBUG o.s.c.a.ConfigurationClassBeanDefinitionReader - Registering bean definition for @Bean method org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration.objectPostProcessor()
+21:23:31.230 [Test worker] DEBUG o.s.c.a.ConfigurationClassBeanDefinitionReader - Registered bean definition for imported class 'org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration'
+21:23:31.230 [Test worker] DEBUG o.s.c.a.ConfigurationClassBeanDefinitionReader - Registering bean definition for @Bean method org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration.initializeAuthenticationProviderBeanManagerConfigurer()
+21:23:31.230 [Test worker] DEBUG o.s.c.a.ConfigurationClassBeanDefinitionReader - Registering bean definition for @Bean method org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration.initializeUserDetailsBeanManagerConfigurer()
+21:23:31.230 [Test worker] DEBUG o.s.c.a.ConfigurationClassBeanDefinitionReader - Registering bean definition for @Bean method org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration.enableGlobalAuthenticationAutowiredConfigurer()
+21:23:31.230 [Test worker] DEBUG o.s.c.a.ConfigurationClassBeanDefinitionReader - Registering bean definition for @Bean method org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration.authenticationManagerBuilder()
+21:23:31.230 [Test worker] DEBUG o.s.c.a.ConfigurationClassBeanDefinitionReader - Registered bean definition for imported class 'org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration'
+21:23:31.230 [Test worker] DEBUG o.s.c.a.ConfigurationClassBeanDefinitionReader - Registering bean definition for @Bean method org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration.autowiredWebSecurityConfigurersIgnoreParents()
+21:23:31.230 [Test worker] DEBUG o.s.c.a.ConfigurationClassBeanDefinitionReader - Registering bean definition for @Bean method org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration.springSecurityFilterChain()
+21:23:31.230 [Test worker] DEBUG o.s.c.a.ConfigurationClassBeanDefinitionReader - Registering bean definition for @Bean method org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration.privilegeEvaluator()
+21:23:31.230 [Test worker] DEBUG o.s.c.a.ConfigurationClassBeanDefinitionReader - Registering bean definition for @Bean method org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration.webSecurityExpressionHandler()
+21:23:31.230 [Test worker] DEBUG o.s.c.a.ConfigurationClassBeanDefinitionReader - Registering bean definition for @Bean method org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration.delegatingApplicationListener()
+21:23:31.230 [Test worker] DEBUG o.s.c.a.ConfigurationClassBeanDefinitionReader - Registered bean definition for imported class 'org.springframework.security.config.annotation.web.configuration.WebMvcSecurityConfiguration'
+21:23:31.230 [Test worker] DEBUG o.s.c.a.ConfigurationClassBeanDefinitionReader - Registering bean definition for @Bean method org.springframework.security.config.annotation.web.configuration.WebMvcSecurityConfiguration.requestDataValueProcessor()
+21:23:31.355 [Test worker] DEBUG o.s.c.a.ConfigurationClassEnhancer - Successfully enhanced org.springframework.security.samples.config.SecurityConfig; enhanced class name is: org.springframework.security.samples.config.SecurityConfig$$EnhancerBySpringCGLIB$$f8e02524
+21:23:31.355 [Test worker] DEBUG o.s.c.a.ConfigurationClassPostProcessor - Replacing bean definition 'securityConfig' existing class 'org.springframework.security.samples.config.SecurityConfig' with enhanced class 'org.springframework.security.samples.config.SecurityConfig$$EnhancerBySpringCGLIB$$f8e02524'
+21:23:31.355 [Test worker] DEBUG o.s.c.a.ConfigurationClassEnhancer - Successfully enhanced org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration; enhanced class name is: org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$191586d7
+21:23:31.355 [Test worker] DEBUG o.s.c.a.ConfigurationClassPostProcessor - Replacing bean definition 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' existing class 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' with enhanced class 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$191586d7'
+21:23:31.371 [Test worker] DEBUG o.s.c.a.ConfigurationClassEnhancer - Successfully enhanced org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration; enhanced class name is: org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration$$EnhancerBySpringCGLIB$$64de914c
+21:23:31.371 [Test worker] DEBUG o.s.c.a.ConfigurationClassPostProcessor - Replacing bean definition 'org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration' existing class 'org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration' with enhanced class 'org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration$$EnhancerBySpringCGLIB$$64de914c'
+21:23:31.371 [Test worker] DEBUG o.s.c.a.ConfigurationClassEnhancer - Successfully enhanced org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration; enhanced class name is: org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration$$EnhancerBySpringCGLIB$$64de914c
+21:23:31.371 [Test worker] DEBUG o.s.c.a.ConfigurationClassPostProcessor - Replacing bean definition 'initializeAuthenticationProviderBeanManagerConfigurer' existing class 'org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration' with enhanced class 'org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration$$EnhancerBySpringCGLIB$$64de914c'
+21:23:31.371 [Test worker] DEBUG o.s.c.a.ConfigurationClassEnhancer - Successfully enhanced org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration; enhanced class name is: org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration$$EnhancerBySpringCGLIB$$64de914c
+21:23:31.371 [Test worker] DEBUG o.s.c.a.ConfigurationClassPostProcessor - Replacing bean definition 'initializeUserDetailsBeanManagerConfigurer' existing class 'org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration' with enhanced class 'org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration$$EnhancerBySpringCGLIB$$64de914c'
+21:23:31.371 [Test worker] DEBUG o.s.c.a.ConfigurationClassEnhancer - Successfully enhanced org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration; enhanced class name is: org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration$$EnhancerBySpringCGLIB$$64de914c
+21:23:31.371 [Test worker] DEBUG o.s.c.a.ConfigurationClassPostProcessor - Replacing bean definition 'enableGlobalAuthenticationAutowiredConfigurer' existing class 'org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration' with enhanced class 'org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration$$EnhancerBySpringCGLIB$$64de914c'
+21:23:31.371 [Test worker] DEBUG o.s.c.a.ConfigurationClassEnhancer - Successfully enhanced org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration; enhanced class name is: org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration$$EnhancerBySpringCGLIB$$2798eb90
+21:23:31.371 [Test worker] DEBUG o.s.c.a.ConfigurationClassPostProcessor - Replacing bean definition 'org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration' existing class 'org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration' with enhanced class 'org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration$$EnhancerBySpringCGLIB$$2798eb90'
+21:23:31.371 [Test worker] DEBUG o.s.c.a.ConfigurationClassEnhancer - Successfully enhanced org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration; enhanced class name is: org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration$$EnhancerBySpringCGLIB$$2798eb90
+21:23:31.371 [Test worker] DEBUG o.s.c.a.ConfigurationClassPostProcessor - Replacing bean definition 'delegatingApplicationListener' existing class 'org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration' with enhanced class 'org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration$$EnhancerBySpringCGLIB$$2798eb90'
+21:23:31.371 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+21:23:31.371 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+21:23:31.371 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' to allow for resolving potential circular references
+21:23:31.418 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+21:23:31.418 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+21:23:31.418 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+21:23:31.418 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor' to allow for resolving potential circular references
+21:23:31.418 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+21:23:31.418 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+21:23:31.418 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+21:23:31.418 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor' to allow for resolving potential circular references
+21:23:31.433 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+21:23:31.433 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor'
+21:23:31.433 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor'
+21:23:31.433 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor' to allow for resolving potential circular references
+21:23:31.433 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor'
+21:23:31.433 [Test worker] DEBUG o.s.c.s.GenericApplicationContext - Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@49dc5fba]
+21:23:31.449 [Test worker] DEBUG o.s.c.s.GenericApplicationContext - Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@26e94b23]
+21:23:31.449 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@3be28ab8: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,org.springframework.context.event.internalEventListenerProcessor,org.springframework.context.event.internalEventListenerFactory,securityConfig,org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration,objectPostProcessor,org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration,initializeAuthenticationProviderBeanManagerConfigurer,initializeUserDetailsBeanManagerConfigurer,enableGlobalAuthenticationAutowiredConfigurer,authenticationManagerBuilder,org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration,autowiredWebSecurityConfigurersIgnoreParents,springSecurityFilterChain,privilegeEvaluator,webSecurityExpressionHandler,delegatingApplicationListener,org.springframework.security.config.annotation.web.configuration.WebMvcSecurityConfiguration,requestDataValueProcessor]; root of factory hierarchy
+21:23:31.449 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+21:23:31.449 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+21:23:31.449 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+21:23:31.449 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+21:23:31.449 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor'
+21:23:31.449 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+21:23:31.449 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.context.event.internalEventListenerProcessor'
+21:23:31.449 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'org.springframework.context.event.internalEventListenerProcessor' to allow for resolving potential circular references
+21:23:31.465 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.context.event.internalEventListenerProcessor'
+21:23:31.465 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+21:23:31.465 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.context.event.internalEventListenerFactory'
+21:23:31.465 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'org.springframework.context.event.internalEventListenerFactory' to allow for resolving potential circular references
+21:23:31.465 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.context.event.internalEventListenerFactory'
+21:23:31.465 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'securityConfig'
+21:23:31.465 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'securityConfig'
+21:23:31.465 [Test worker] DEBUG o.s.b.f.annotation.InjectionMetadata - Registered injected element on class [org.springframework.security.samples.config.SecurityConfig$$EnhancerBySpringCGLIB$$f8e02524]: AutowiredMethodElement for public void org.springframework.security.samples.config.SecurityConfig.configureGlobal(org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder) throws java.lang.Exception
+21:23:31.465 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'securityConfig' to allow for resolving potential circular references
+21:23:31.465 [Test worker] DEBUG o.s.b.f.annotation.InjectionMetadata - Processing injected element of bean 'securityConfig': AutowiredMethodElement for public void org.springframework.security.samples.config.SecurityConfig.configureGlobal(org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder) throws java.lang.Exception
+21:23:31.480 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'authenticationManagerBuilder'
+21:23:31.480 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'authenticationManagerBuilder'
+21:23:31.480 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration'
+21:23:31.480 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration'
+21:23:31.480 [Test worker] DEBUG o.s.b.f.annotation.InjectionMetadata - Registered injected element on class [org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration$$EnhancerBySpringCGLIB$$64de914c]: AutowiredMethodElement for public void org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration.setGlobalAuthenticationConfigurers(java.util.List) throws java.lang.Exception
+21:23:31.480 [Test worker] DEBUG o.s.b.f.annotation.InjectionMetadata - Registered injected element on class [org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration$$EnhancerBySpringCGLIB$$64de914c]: AutowiredMethodElement for public void org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration.setApplicationContext(org.springframework.context.ApplicationContext)
+21:23:31.480 [Test worker] DEBUG o.s.b.f.annotation.InjectionMetadata - Registered injected element on class [org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration$$EnhancerBySpringCGLIB$$64de914c]: AutowiredMethodElement for public void org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration.setObjectPostProcessor(org.springframework.security.config.annotation.ObjectPostProcessor)
+21:23:31.480 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration' to allow for resolving potential circular references
+21:23:31.480 [Test worker] DEBUG o.s.b.f.annotation.InjectionMetadata - Processing injected element of bean 'org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration': AutowiredMethodElement for public void org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration.setGlobalAuthenticationConfigurers(java.util.List) throws java.lang.Exception
+21:23:31.480 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'initializeAuthenticationProviderBeanManagerConfigurer'
+21:23:31.480 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'initializeAuthenticationProviderBeanManagerConfigurer'
+21:23:31.496 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'initializeAuthenticationProviderBeanManagerConfigurer' via factory method to bean named 'org.springframework.context.support.GenericApplicationContext@544b2e14'
+21:23:31.496 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'initializeAuthenticationProviderBeanManagerConfigurer' to allow for resolving potential circular references
+21:23:31.496 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'initializeAuthenticationProviderBeanManagerConfigurer'
+21:23:31.496 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'initializeUserDetailsBeanManagerConfigurer'
+21:23:31.496 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'initializeUserDetailsBeanManagerConfigurer'
+21:23:31.496 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'initializeUserDetailsBeanManagerConfigurer' via factory method to bean named 'org.springframework.context.support.GenericApplicationContext@544b2e14'
+21:23:31.496 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'initializeUserDetailsBeanManagerConfigurer' to allow for resolving potential circular references
+21:23:31.511 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'initializeUserDetailsBeanManagerConfigurer'
+21:23:31.511 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'enableGlobalAuthenticationAutowiredConfigurer'
+21:23:31.511 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'enableGlobalAuthenticationAutowiredConfigurer'
+21:23:31.511 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'enableGlobalAuthenticationAutowiredConfigurer' via factory method to bean named 'org.springframework.context.support.GenericApplicationContext@544b2e14'
+21:23:31.511 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'enableGlobalAuthenticationAutowiredConfigurer' to allow for resolving potential circular references
+21:23:31.511 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'enableGlobalAuthenticationAutowiredConfigurer'
+21:23:31.527 [Test worker] DEBUG o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Autowiring by type from bean name 'org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration' to bean named 'initializeAuthenticationProviderBeanManagerConfigurer'
+21:23:31.527 [Test worker] DEBUG o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Autowiring by type from bean name 'org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration' to bean named 'initializeUserDetailsBeanManagerConfigurer'
+21:23:31.527 [Test worker] DEBUG o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Autowiring by type from bean name 'org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration' to bean named 'enableGlobalAuthenticationAutowiredConfigurer'
+21:23:31.527 [Test worker] DEBUG o.s.b.f.annotation.InjectionMetadata - Processing injected element of bean 'org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration': AutowiredMethodElement for public void org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration.setApplicationContext(org.springframework.context.ApplicationContext)
+21:23:31.527 [Test worker] DEBUG o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Autowiring by type from bean name 'org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration' to bean named 'org.springframework.context.support.GenericApplicationContext@544b2e14'
+21:23:31.527 [Test worker] DEBUG o.s.b.f.annotation.InjectionMetadata - Processing injected element of bean 'org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration': AutowiredMethodElement for public void org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration.setObjectPostProcessor(org.springframework.security.config.annotation.ObjectPostProcessor)
+21:23:31.527 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'objectPostProcessor'
+21:23:31.527 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'objectPostProcessor'
+21:23:31.527 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration'
+21:23:31.527 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration'
+21:23:31.527 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' to allow for resolving potential circular references
+21:23:31.527 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration'
+21:23:31.527 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'objectPostProcessor' via factory method to bean named 'org.springframework.beans.factory.support.DefaultListableBeanFactory@3be28ab8'
+21:23:31.543 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'objectPostProcessor' to allow for resolving potential circular references
+21:23:31.558 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'objectPostProcessor'
+21:23:31.558 [Test worker] DEBUG o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Autowiring by type from bean name 'org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration' to bean named 'objectPostProcessor'
+21:23:31.558 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration'
+21:23:31.558 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'objectPostProcessor'
+21:23:31.558 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'authenticationManagerBuilder' via factory method to bean named 'objectPostProcessor'
+21:23:31.574 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'authenticationManagerBuilder' to allow for resolving potential circular references
+21:23:31.574 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'authenticationManagerBuilder'
+21:23:31.574 [Test worker] DEBUG o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Autowiring by type from bean name 'securityConfig' to bean named 'authenticationManagerBuilder'
+21:23:31.590 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'securityConfig'
+21:23:31.590 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration'
+21:23:31.590 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'objectPostProcessor'
+21:23:31.590 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration'
+21:23:31.590 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'initializeAuthenticationProviderBeanManagerConfigurer'
+21:23:31.590 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'initializeUserDetailsBeanManagerConfigurer'
+21:23:31.590 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'enableGlobalAuthenticationAutowiredConfigurer'
+21:23:31.590 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'authenticationManagerBuilder'
+21:23:31.590 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration'
+21:23:31.590 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration'
+21:23:31.605 [Test worker] DEBUG o.s.b.f.annotation.InjectionMetadata - Registered injected element on class [org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration$$EnhancerBySpringCGLIB$$2798eb90]: AutowiredFieldElement for private org.springframework.security.config.annotation.ObjectPostProcessor org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration.objectObjectPostProcessor
+21:23:31.605 [Test worker] DEBUG o.s.b.f.annotation.InjectionMetadata - Registered injected element on class [org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration$$EnhancerBySpringCGLIB$$2798eb90]: AutowiredMethodElement for public void org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration.setFilterChainProxySecurityConfigurer(org.springframework.security.config.annotation.ObjectPostProcessor,java.util.List) throws java.lang.Exception
+21:23:31.605 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration' to allow for resolving potential circular references
+21:23:31.605 [Test worker] DEBUG o.s.b.f.annotation.InjectionMetadata - Processing injected element of bean 'org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration': AutowiredFieldElement for private org.springframework.security.config.annotation.ObjectPostProcessor org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration.objectObjectPostProcessor
+21:23:31.605 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'objectPostProcessor'
+21:23:31.605 [Test worker] DEBUG o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Autowiring by type from bean name 'org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration' to bean named 'objectPostProcessor'
+21:23:31.605 [Test worker] DEBUG o.s.b.f.annotation.InjectionMetadata - Processing injected element of bean 'org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration': AutowiredMethodElement for public void org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration.setFilterChainProxySecurityConfigurer(org.springframework.security.config.annotation.ObjectPostProcessor,java.util.List) throws java.lang.Exception
+21:23:31.605 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'objectPostProcessor'
+21:23:31.637 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'autowiredWebSecurityConfigurersIgnoreParents'
+21:23:31.637 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'autowiredWebSecurityConfigurersIgnoreParents'
+21:23:31.637 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning eagerly cached instance of singleton bean 'org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration' that is not fully initialized yet - a consequence of a circular reference
+21:23:31.637 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'autowiredWebSecurityConfigurersIgnoreParents' via factory method to bean named 'org.springframework.beans.factory.support.DefaultListableBeanFactory@3be28ab8'
+21:23:31.652 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'autowiredWebSecurityConfigurersIgnoreParents' to allow for resolving potential circular references
+21:23:31.652 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'autowiredWebSecurityConfigurersIgnoreParents'
+21:23:31.683 [Test worker] DEBUG o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Autowiring by type from bean name 'org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration' to bean named 'objectPostProcessor'
+21:23:31.699 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importRegistry'
+21:23:31.699 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration'
+21:23:31.699 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'autowiredWebSecurityConfigurersIgnoreParents'
+21:23:31.699 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'springSecurityFilterChain'
+21:23:31.699 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'springSecurityFilterChain'
+21:23:31.699 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration'
+21:23:31.715 [Test worker] DEBUG o.s.b.f.annotation.InjectionMetadata - Processing injected element of bean 'org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration$1': AutowiredMethodElement for public void org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter.setApplicationContext(org.springframework.context.ApplicationContext)
+21:23:31.715 [Test worker] DEBUG o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Autowiring by type from bean name 'org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration$1' to bean named 'org.springframework.context.support.GenericApplicationContext@544b2e14'
+21:23:31.715 [Test worker] DEBUG o.s.b.f.annotation.InjectionMetadata - Processing injected element of bean 'org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration$1': AutowiredMethodElement for public void org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter.setObjectPostProcessor(org.springframework.security.config.annotation.ObjectPostProcessor)
+21:23:31.715 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'objectPostProcessor'
+21:23:31.715 [Test worker] DEBUG o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Autowiring by type from bean name 'org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration$1' to bean named 'objectPostProcessor'
+21:23:31.715 [Test worker] DEBUG o.s.b.f.annotation.InjectionMetadata - Processing injected element of bean 'org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration$1': AutowiredMethodElement for public void org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter.setTrustResolver(org.springframework.security.authentication.AuthenticationTrustResolver)
+21:23:31.715 [Test worker] DEBUG o.s.b.f.annotation.InjectionMetadata - Processing injected element of bean 'org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration$1': AutowiredMethodElement for public void org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter.setAuthenticationConfiguration(org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration)
+21:23:31.715 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration'
+21:23:31.715 [Test worker] DEBUG o.s.b.f.a.AutowiredAnnotationBeanPostProcessor - Autowiring by type from bean name 'org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration$1' to bean named 'org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration'
+21:23:31.715 [Test worker] DEBUG o.s.b.f.annotation.InjectionMetadata - Processing injected element of bean 'org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration$1': AutowiredMethodElement for public void org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter.setContentNegotationStrategy(org.springframework.web.accept.ContentNegotiationStrategy)
+21:23:31.730 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'securityConfig'
+21:23:31.730 [Test worker] DEBUG o.s.s.c.a.a.c.AuthenticationConfiguration$EnableGlobalAuthenticationAutowiredConfigurer - Eagerly initializing {securityConfig=org.springframework.security.samples.config.SecurityConfig$$EnhancerBySpringCGLIB$$f8e02524@13f6fa95}
+21:23:31.730 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Invoking afterPropertiesSet() on bean with name 'org.springframework.security.authentication.dao.DaoAuthenticationProvider@2a14716'
+21:23:31.730 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Invoking afterPropertiesSet() on bean with name 'org.springframework.security.authentication.ProviderManager@4d8bd4c6'
+21:23:31.746 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'authenticationManagerBuilder'
+21:23:31.777 [Test worker] DEBUG o.s.w.c.s.StandardServletEnvironment - Adding [servletConfigInitParams] PropertySource with lowest search precedence
+21:23:31.777 [Test worker] DEBUG o.s.w.c.s.StandardServletEnvironment - Adding [servletContextInitParams] PropertySource with lowest search precedence
+21:23:31.777 [Test worker] DEBUG o.s.w.c.s.StandardServletEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+21:23:31.777 [Test worker] DEBUG o.s.w.c.s.StandardServletEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+21:23:31.777 [Test worker] DEBUG o.s.w.c.s.StandardServletEnvironment - Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,systemProperties,systemEnvironment]
+21:23:31.793 [Test worker] DEBUG o.s.w.c.s.StandardServletEnvironment - Adding [servletConfigInitParams] PropertySource with lowest search precedence
+21:23:31.793 [Test worker] DEBUG o.s.w.c.s.StandardServletEnvironment - Adding [servletContextInitParams] PropertySource with lowest search precedence
+21:23:31.793 [Test worker] DEBUG o.s.w.c.s.StandardServletEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+21:23:31.793 [Test worker] DEBUG o.s.w.c.s.StandardServletEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+21:23:31.793 [Test worker] DEBUG o.s.w.c.s.StandardServletEnvironment - Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,systemProperties,systemEnvironment]
+21:23:31.793 [Test worker] DEBUG o.s.w.c.s.StandardServletEnvironment - Adding [servletConfigInitParams] PropertySource with lowest search precedence
+21:23:31.793 [Test worker] DEBUG o.s.w.c.s.StandardServletEnvironment - Adding [servletContextInitParams] PropertySource with lowest search precedence
+21:23:31.793 [Test worker] DEBUG o.s.w.c.s.StandardServletEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+21:23:31.793 [Test worker] DEBUG o.s.w.c.s.StandardServletEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+21:23:31.793 [Test worker] DEBUG o.s.w.c.s.StandardServletEnvironment - Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,systemProperties,systemEnvironment]
+21:23:31.793 [Test worker] DEBUG o.s.s.c.a.w.c.WebSecurityConfigurerAdapter - Using default configure(HttpSecurity). If subclassed this will potentially override subclass configure(HttpSecurity).
+21:23:31.808 [Test worker] DEBUG o.s.w.c.s.StandardServletEnvironment - Adding [servletConfigInitParams] PropertySource with lowest search precedence
+21:23:31.808 [Test worker] DEBUG o.s.w.c.s.StandardServletEnvironment - Adding [servletContextInitParams] PropertySource with lowest search precedence
+21:23:31.808 [Test worker] DEBUG o.s.w.c.s.StandardServletEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+21:23:31.808 [Test worker] DEBUG o.s.w.c.s.StandardServletEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+21:23:31.808 [Test worker] DEBUG o.s.w.c.s.StandardServletEnvironment - Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,systemProperties,systemEnvironment]
+21:23:31.840 [Test worker] DEBUG o.s.w.c.s.StandardServletEnvironment - Adding [servletConfigInitParams] PropertySource with lowest search precedence
+21:23:31.840 [Test worker] DEBUG o.s.w.c.s.StandardServletEnvironment - Adding [servletContextInitParams] PropertySource with lowest search precedence
+21:23:31.840 [Test worker] DEBUG o.s.w.c.s.StandardServletEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+21:23:31.840 [Test worker] DEBUG o.s.w.c.s.StandardServletEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+21:23:31.840 [Test worker] DEBUG o.s.w.c.s.StandardServletEnvironment - Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,systemProperties,systemEnvironment]
+21:23:31.840 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Invoking afterPropertiesSet() on bean with name 'org.springframework.security.web.authentication.LoginUrlAuthenticationEntryPoint@299ba712'
+21:23:31.855 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Invoking afterPropertiesSet() on bean with name 'org.springframework.security.web.authentication.DelegatingAuthenticationEntryPoint@13fa1d6d'
+21:23:31.855 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Invoking afterPropertiesSet() on bean with name 'org.springframework.security.authentication.ProviderManager@3301a921'
+21:23:31.855 [Test worker] DEBUG o.s.w.c.s.StandardServletEnvironment - Adding [servletConfigInitParams] PropertySource with lowest search precedence
+21:23:31.855 [Test worker] DEBUG o.s.w.c.s.StandardServletEnvironment - Adding [servletContextInitParams] PropertySource with lowest search precedence
+21:23:31.855 [Test worker] DEBUG o.s.w.c.s.StandardServletEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+21:23:31.855 [Test worker] DEBUG o.s.w.c.s.StandardServletEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+21:23:31.855 [Test worker] DEBUG o.s.w.c.s.StandardServletEnvironment - Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,systemProperties,systemEnvironment]
+21:23:31.855 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Invoking afterPropertiesSet() on bean with name 'org.springframework.security.web.csrf.CsrfFilter@7264822d'
+21:23:31.871 [Test worker] DEBUG o.s.w.c.s.StandardServletEnvironment - Adding [servletConfigInitParams] PropertySource with lowest search precedence
+21:23:31.871 [Test worker] DEBUG o.s.w.c.s.StandardServletEnvironment - Adding [servletContextInitParams] PropertySource with lowest search precedence
+21:23:31.871 [Test worker] DEBUG o.s.w.c.s.StandardServletEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+21:23:31.871 [Test worker] DEBUG o.s.w.c.s.StandardServletEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+21:23:31.871 [Test worker] DEBUG o.s.w.c.s.StandardServletEnvironment - Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,systemProperties,systemEnvironment]
+21:23:31.871 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Invoking afterPropertiesSet() on bean with name 'org.springframework.security.web.access.ExceptionTranslationFilter@373bd1df'
+21:23:31.871 [Test worker] DEBUG o.s.w.c.s.StandardServletEnvironment - Adding [servletConfigInitParams] PropertySource with lowest search precedence
+21:23:31.871 [Test worker] DEBUG o.s.w.c.s.StandardServletEnvironment - Adding [servletContextInitParams] PropertySource with lowest search precedence
+21:23:31.871 [Test worker] DEBUG o.s.w.c.s.StandardServletEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+21:23:31.871 [Test worker] DEBUG o.s.w.c.s.StandardServletEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+21:23:31.871 [Test worker] DEBUG o.s.w.c.s.StandardServletEnvironment - Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,systemProperties,systemEnvironment]
+21:23:31.871 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Invoking afterPropertiesSet() on bean with name 'org.springframework.security.web.header.HeaderWriterFilter@38481167'
+21:23:31.887 [Test worker] DEBUG o.s.w.c.s.StandardServletEnvironment - Adding [servletConfigInitParams] PropertySource with lowest search precedence
+21:23:31.887 [Test worker] DEBUG o.s.w.c.s.StandardServletEnvironment - Adding [servletContextInitParams] PropertySource with lowest search precedence
+21:23:31.887 [Test worker] DEBUG o.s.w.c.s.StandardServletEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+21:23:31.887 [Test worker] DEBUG o.s.w.c.s.StandardServletEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+21:23:31.887 [Test worker] DEBUG o.s.w.c.s.StandardServletEnvironment - Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,systemProperties,systemEnvironment]
+21:23:31.887 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Invoking afterPropertiesSet() on bean with name 'org.springframework.security.web.session.SessionManagementFilter@14116d16'
+21:23:31.887 [Test worker] DEBUG o.s.w.c.s.StandardServletEnvironment - Adding [servletConfigInitParams] PropertySource with lowest search precedence
+21:23:31.887 [Test worker] DEBUG o.s.w.c.s.StandardServletEnvironment - Adding [servletContextInitParams] PropertySource with lowest search precedence
+21:23:31.887 [Test worker] DEBUG o.s.w.c.s.StandardServletEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+21:23:31.887 [Test worker] DEBUG o.s.w.c.s.StandardServletEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+21:23:31.887 [Test worker] DEBUG o.s.w.c.s.StandardServletEnvironment - Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,systemProperties,systemEnvironment]
+21:23:31.887 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Invoking afterPropertiesSet() on bean with name 'org.springframework.security.web.context.SecurityContextPersistenceFilter@4c58f3da'
+21:23:31.902 [Test worker] DEBUG o.s.w.c.s.StandardServletEnvironment - Adding [servletConfigInitParams] PropertySource with lowest search precedence
+21:23:31.902 [Test worker] DEBUG o.s.w.c.s.StandardServletEnvironment - Adding [servletContextInitParams] PropertySource with lowest search precedence
+21:23:31.902 [Test worker] DEBUG o.s.w.c.s.StandardServletEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+21:23:31.902 [Test worker] DEBUG o.s.w.c.s.StandardServletEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+21:23:31.902 [Test worker] DEBUG o.s.w.c.s.StandardServletEnvironment - Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,systemProperties,systemEnvironment]
+21:23:31.902 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Invoking afterPropertiesSet() on bean with name 'org.springframework.security.web.savedrequest.RequestCacheAwareFilter@267fe4a8'
+21:23:31.902 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Invoking afterPropertiesSet() on bean with name 'org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3f9ad80d'
+21:23:31.918 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Invoking afterPropertiesSet() on bean with name 'org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@3c36b359'
+21:23:31.918 [Test worker] DEBUG o.s.w.c.s.StandardServletEnvironment - Adding [servletConfigInitParams] PropertySource with lowest search precedence
+21:23:31.918 [Test worker] DEBUG o.s.w.c.s.StandardServletEnvironment - Adding [servletContextInitParams] PropertySource with lowest search precedence
+21:23:31.918 [Test worker] DEBUG o.s.w.c.s.StandardServletEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+21:23:31.918 [Test worker] DEBUG o.s.w.c.s.StandardServletEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+21:23:31.918 [Test worker] DEBUG o.s.w.c.s.StandardServletEnvironment - Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,systemProperties,systemEnvironment]
+21:23:31.918 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Invoking afterPropertiesSet() on bean with name 'org.springframework.security.web.authentication.logout.LogoutFilter@7c86f47b'
+21:23:31.933 [Test worker] DEBUG o.s.s.w.a.e.ExpressionBasedFilterInvocationSecurityMetadataSource - Adding web access control expression 'authenticated', for org.springframework.security.web.util.matcher.AnyRequestMatcher@1
+21:23:31.933 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Invoking afterPropertiesSet() on bean with name 'org.springframework.security.access.vote.AffirmativeBased@1aa55c36'
+21:23:31.949 [Test worker] DEBUG o.s.s.w.a.i.FilterSecurityInterceptor - Validated configuration attributes
+21:23:31.949 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Invoking afterPropertiesSet() on bean with name 'org.springframework.security.web.access.intercept.FilterSecurityInterceptor@c9ea5ce'
+21:23:31.949 [Test worker] DEBUG o.s.s.w.a.i.FilterSecurityInterceptor - Validated configuration attributes
+21:23:31.949 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Invoking afterPropertiesSet() on bean with name 'org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@50e77199'
+21:23:31.965 [Test worker] DEBUG o.s.w.c.s.StandardServletEnvironment - Adding [servletConfigInitParams] PropertySource with lowest search precedence
+21:23:31.965 [Test worker] DEBUG o.s.w.c.s.StandardServletEnvironment - Adding [servletContextInitParams] PropertySource with lowest search precedence
+21:23:31.965 [Test worker] DEBUG o.s.w.c.s.StandardServletEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+21:23:31.965 [Test worker] DEBUG o.s.w.c.s.StandardServletEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+21:23:31.965 [Test worker] DEBUG o.s.w.c.s.StandardServletEnvironment - Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,systemProperties,systemEnvironment]
+21:23:31.965 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Invoking afterPropertiesSet() on bean with name 'org.springframework.security.web.authentication.www.BasicAuthenticationFilter@63bf2099'
+21:23:31.965 [Test worker] INFO  o.s.s.web.DefaultSecurityFilterChain - Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@74b32444, org.springframework.security.web.context.SecurityContextPersistenceFilter@4c58f3da, org.springframework.security.web.header.HeaderWriterFilter@38481167, org.springframework.security.web.csrf.CsrfFilter@7264822d, org.springframework.security.web.authentication.logout.LogoutFilter@7c86f47b, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@50e77199, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@3c36b359, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@63bf2099, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@267fe4a8, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3f9ad80d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@36ddf6b9, org.springframework.security.web.session.SessionManagementFilter@14116d16, org.springframework.security.web.access.ExceptionTranslationFilter@373bd1df, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@c9ea5ce]
+21:23:31.965 [Test worker] DEBUG o.s.w.c.s.StandardServletEnvironment - Adding [servletConfigInitParams] PropertySource with lowest search precedence
+21:23:31.965 [Test worker] DEBUG o.s.w.c.s.StandardServletEnvironment - Adding [servletContextInitParams] PropertySource with lowest search precedence
+21:23:31.965 [Test worker] DEBUG o.s.w.c.s.StandardServletEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+21:23:31.965 [Test worker] DEBUG o.s.w.c.s.StandardServletEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+21:23:31.965 [Test worker] DEBUG o.s.w.c.s.StandardServletEnvironment - Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,systemProperties,systemEnvironment]
+21:23:31.980 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'springSecurityFilterChain' to allow for resolving potential circular references
+21:23:31.980 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Invoking afterPropertiesSet() on bean with name 'springSecurityFilterChain'
+21:23:31.980 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'springSecurityFilterChain'
+21:23:31.980 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'springSecurityFilterChain'
+21:23:31.980 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'privilegeEvaluator'
+21:23:31.980 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'privilegeEvaluator'
+21:23:31.980 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration'
+21:23:31.980 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'privilegeEvaluator' to allow for resolving potential circular references
+21:23:31.980 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'privilegeEvaluator'
+21:23:31.980 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'springSecurityFilterChain'
+21:23:31.980 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'webSecurityExpressionHandler'
+21:23:31.980 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'webSecurityExpressionHandler'
+21:23:31.980 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration'
+21:23:31.980 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'webSecurityExpressionHandler' to allow for resolving potential circular references
+21:23:31.980 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'webSecurityExpressionHandler'
+21:23:31.980 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'delegatingApplicationListener'
+21:23:31.980 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'delegatingApplicationListener'
+21:23:31.980 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'delegatingApplicationListener' to allow for resolving potential circular references
+21:23:31.980 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'delegatingApplicationListener'
+21:23:31.980 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.security.config.annotation.web.configuration.WebMvcSecurityConfiguration'
+21:23:31.980 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.security.config.annotation.web.configuration.WebMvcSecurityConfiguration'
+21:23:31.980 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'org.springframework.security.config.annotation.web.configuration.WebMvcSecurityConfiguration' to allow for resolving potential circular references
+21:23:31.996 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.security.config.annotation.web.configuration.WebMvcSecurityConfiguration'
+21:23:31.996 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'requestDataValueProcessor'
+21:23:31.996 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'requestDataValueProcessor'
+21:23:31.996 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.security.config.annotation.web.configuration.WebMvcSecurityConfiguration'
+21:23:31.996 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'requestDataValueProcessor' to allow for resolving potential circular references
+21:23:31.996 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'requestDataValueProcessor'
+21:23:31.996 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+21:23:32.012 [Test worker] DEBUG o.s.c.s.GenericApplicationContext - Unable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@5745ae38]
+21:23:32.012 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'lifecycleProcessor'
+21:23:32.027 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'delegatingApplicationListener'
+21:23:32.027 [Test worker] DEBUG o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'spring.liveBeansView.mbeanDomain' in any property source
+21:23:32.027 [Test worker] DEBUG o.s.t.c.c.DefaultCacheAwareContextLoaderDelegate - Storing ApplicationContext in cache under key [[MergedContextConfiguration@6ec1924b testClass = SecurityConfigTests, locations = '{}', classes = '{class org.springframework.security.samples.config.SecurityConfig}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]
+21:23:32.027 [Test worker] DEBUG o.springframework.test.context.cache - Spring test ApplicationContext cache statistics: [DefaultContextCache@3983fcb8 size = 1, maxSize = 32, parentContextCount = 0, hitCount = 0, missCount = 1]
+21:23:32.027 [Test worker] DEBUG o.s.t.c.s.AbstractDirtiesContextTestExecutionListener - Before test method: context [DefaultTestContext@2f969c5d testClass = SecurityConfigTests, testInstance = org.springframework.security.samples.config.SecurityConfigTests@2d606789, testMethod = securityConfigurationLoads@SecurityConfigTests, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@6ec1924b testClass = SecurityConfigTests, locations = '{}', classes = '{class org.springframework.security.samples.config.SecurityConfig}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]], class annotated with @DirtiesContext [false] with mode [null], method annotated with @DirtiesContext [false] with mode [null].
+21:23:32.043 [Test worker] DEBUG o.s.t.c.s.AbstractDirtiesContextTestExecutionListener - After test method: context [DefaultTestContext@2f969c5d testClass = SecurityConfigTests, testInstance = org.springframework.security.samples.config.SecurityConfigTests@2d606789, testMethod = securityConfigurationLoads@SecurityConfigTests, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@6ec1924b testClass = SecurityConfigTests, locations = '{}', classes = '{class org.springframework.security.samples.config.SecurityConfig}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]], class annotated with @DirtiesContext [false] with mode [null], method annotated with @DirtiesContext [false] with mode [null].
+21:23:32.043 [Test worker] DEBUG o.s.t.c.s.AbstractDirtiesContextTestExecutionListener - After test class: context [DefaultTestContext@2f969c5d testClass = SecurityConfigTests, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@6ec1924b testClass = SecurityConfigTests, locations = '{}', classes = '{class org.springframework.security.samples.config.SecurityConfig}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]], class annotated with @DirtiesContext [false] with mode [null].
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 3.0</a> at 2017-10-31 21:23:32</p>
+</div>
+</div>
+</body>
+</html>

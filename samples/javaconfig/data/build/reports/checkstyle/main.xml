@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="6.16.1">
+<file name="D:\spring-security-4.2.2.RELEASE\samples\javaconfig\data\src\main\java\samples\DataConfig.java">
+</file>
+<file name="D:\spring-security-4.2.2.RELEASE\samples\javaconfig\data\src\main\java\samples\data\Message.java">
+</file>
+<file name="D:\spring-security-4.2.2.RELEASE\samples\javaconfig\data\src\main\java\samples\data\MessageRepository.java">
+</file>
+<file name="D:\spring-security-4.2.2.RELEASE\samples\javaconfig\data\src\main\java\samples\data\SecurityMessageRepository.java">
+</file>
+<file name="D:\spring-security-4.2.2.RELEASE\samples\javaconfig\data\src\main\java\samples\data\User.java">
+</file>
+</checkstyle>

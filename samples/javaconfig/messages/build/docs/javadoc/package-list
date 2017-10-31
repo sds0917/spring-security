@@ -1,0 +1,4 @@
+org.springframework.security.samples.config
+org.springframework.security.samples.data
+org.springframework.security.samples.mvc
+org.springframework.security.samples.mvc.config
