@@ -371,7 +371,7 @@
     <dependency>
       <groupId>org.springframework.security</groupId>
       <artifactId>spring-security-cas</artifactId>
-      <version>4.2.2.RELEASE</version>
+      <version>4.2.13.RELEASE</version>
       <scope>test</scope>
     </dependency>
     <dependency>
